@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Sencilla</title>
+    <style>
+        /* Estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #4a6fa5;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin: 25px 0 15px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .lista {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .lista li {
+            margin-bottom: 8px;
+        }
+        
+        .destacado {
+            background-color: #e8f4ff;
+            padding: 15px;
+            border-left: 4px solid #4a6fa5;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .boton {
+            display: inline-block;
+            background-color: #4a6fa5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .boton:hover {
+            background-color: #3a5a80;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            color: #4a6fa5;
+        }
+        
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web Sencilla</h1>
+        <p>Un ejemplo básico de estructura HTML con estilos CSS</p>
+    </header>
+    
+    <div class="container">
+        <section class="section">
+            <h2>Bienvenido</h2>
+            <p>Esta es una página HTML básica que incluye elementos comunes que puedes encontrar en muchas páginas web.</p>
+            
+            <div class="destacado">
+                <p><strong>Nota importante:</strong> Este código incluye HTML, CSS interno y contenido de ejemplo. Puedes copiarlo y modificarlo según tus necesidades.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Características de este código</h2>
+            <ul class="lista">
+                <li>Estructura HTML semántica</li>
+                <li>Estilos CSS integrados en la misma página</li>
+                <li>Diseño responsivo básico</li>
+                <li>Elementos comunes: encabezados, párrafos, listas, tabla, enlace</li>
+                <li>Código limpio y bien comentado</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Ejemplo de tabla</h2>
+            <p>A continuación, una tabla simple con información de ejemplo:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Elemento HTML</th>
+                        <th>Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Encabezado</td>
+                        <td>&lt;h1&gt; a &lt;h6&gt;</td>
+                        <td>Títulos y subtítulos</td>
+                    </tr>
+                    <tr>
+                        <td>Párrafo</td>
+                        <td>&lt;p&gt;</td>
+                        <td>Contenido de texto</td>
+                    </tr>
+                    <tr>
+                        <td>Lista</td>
+                        <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td>
+                        <td>Listas de elementos</td>
+                    </tr>
+                    <tr>
+                        <td>Enlace</td>
+                        <td>&lt;a&gt;</td>
+                        <td>Hipervínculos a otras páginas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="section">
+            <h2>Próximos pasos</h2>
+            <p>Puedes modificar este código para practicar HTML y CSS. Intenta cambiar los colores, agregar más contenido o modificar los estilos.</p>
+            
+            <a href="#" class="boton">Este es un botón de ejemplo</a>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Código HTML básico creado como ejemplo educativo &copy; 2023</p>
+        <p>Para aprender más sobre HTML, visita recursos como <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs</a></p>
+    </footer>
+</body>
+</html>
